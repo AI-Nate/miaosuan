@@ -1,0 +1,19 @@
+# Never commit live strategy state — it contains YOUR real data.
+# The repo ships templates; your filled-in strategy files stay local.
+strategy/
+*.local.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Env & secrets (defense in depth — this repo needs none)
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
