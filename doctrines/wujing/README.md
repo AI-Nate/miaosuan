@@ -2,7 +2,7 @@
 
 The Seven Military Classics (武经七书) — the canon compiled in the Song dynasty (1080 CE) as the official curriculum of strategic thought: 孙子兵法 · 吴子 · 司马法 · 尉缭子 · 三略 · 六韬 · 李卫公问对.
 
-This pack distills them into **~25 operational lenses** for running a modern venture: resource allocation, timing, decision hygiene, organizational discipline, competitive positioning. Every lens follows the spec in [`../README.md`](../README.md) — quote, plain reading, concrete triggers, action template.
+This pack distills them into **35 operational lenses** (5 per book) for running a modern venture: resource allocation, timing, decision hygiene, organizational discipline, competitive positioning. Every lens follows the spec in [`../README.md`](../README.md) — quote, plain reading, concrete triggers, action template.
 
 ## The seven books, one line each
 
