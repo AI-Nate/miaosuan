@@ -13,23 +13,28 @@ This is **not** another Art-of-War prompt pack. It is a working *harness* — a 
 
 ---
 
+## What it looks like / 长什么样
+
+When a decision stalls past 3 days, the harness stops analyzing and hands you this — answerable in one word:
+
+![decision digest card](docs/images/digest-card-example.png)
+
+*(Example fully fictional. Note what it does: honest triage — it tells you this decision should NOT be forced today, and asks for the one word that actually is needed.)*
+
 ## Why a harness, not a prompt / 为什么是 harness 不是 prompt
 
 Ask any LLM "analyze my company with Sun Tzu" and you get an essay. Essays don't run companies. What compounds is a **loop**:
 
-```
-┌─────────────────────────────────────────────────────┐
-│  1. GATHER   window activity (what actually happened)│
-│  2. INTERPRET each event through doctrine lenses     │
-│  3. FORCE    every lens ends with 所以应该 (so-we-    │
-│              should) — a concrete action, or it's cut│
-│  4. UPDATE   five rolling strategy files             │
-│  5. ESCALATE stalled decisions → one-page digest,    │
-│              each answerable in one word             │
-└─────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    A["1 · GATHER<br/>window activity"] --> B["2 · INTERPRET<br/>doctrine lenses"]
+    B --> C["3 · FORCE<br/>每条解读必落<br/>所以应该 action"]
+    C --> D["4 · UPDATE<br/>five rolling<br/>strategy files"]
+    D --> E["5 · ESCALATE<br/>stalled decisions →<br/>30-second digest"]
+    E -->|"human replies<br/>in one word"| A
 ```
 
-随口问模型"用孙子兵法分析我的公司",你得到一篇作文。作文管不了公司。能复利的是上面这个**循环**。
+随口问模型"用孙子兵法分析我的公司",你得到一篇作文。作文管不了公司。能复利的是上面这个**循环**——解读被强制落成行动,行动沉淀进滚动的战略文件,拖住的决策被压成 30 秒拍板卡,人的一个字又喂回下一轮。
 
 ## What's in the box / 包里有什么
 
