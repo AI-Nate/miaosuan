@@ -18,4 +18,4 @@ This pack distills them into **35 operational lenses** (5 per book) for running 
 
 ## Reading order for humans
 
-You don't need to read the books to use the pack — the lenses are self-contained. If you want the sources: all seven are public domain; the Chinese Text Project (ctext.org) hosts full originals.
+You don't need to read the books to use the pack — the lenses are self-contained. Want to go deeper? Full per-chapter study notes for all seven books live in [`books/`](../../books/) in this repo; the public-domain originals are at the Chinese Text Project (ctext.org).

@@ -43,7 +43,8 @@ flowchart LR
 | `SKILL.md` | The daily strategy-review skill (Claude Code / OpenClaw compatible) |
 | `templates/strategy/` | The five rolling strategy files: 态势 · 主攻 · 未决 · 红线 · 变更记录 |
 | `templates/digest.md` | The "N decisions · 30 seconds" decision card format |
-| `doctrines/wujing/` | ★ Flagship pack: Seven Military Classics distilled into operational lenses |
+| `doctrines/wujing/` | ★ Flagship pack: Seven Military Classics distilled into 35 operational lenses |
+| `books/` | The source layer: full per-chapter study notes of all seven classics (114 files) |
 | `doctrines/` | Plugin spec — write your own pack (Stoic? Munger? Boyd?) |
 | `examples/` | A full fictional worked example: daily review + decision digest |
 | `docs/` | Setup guides |
