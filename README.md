@@ -51,9 +51,23 @@ flowchart LR
 
 ## Quickstart (≤5 min)
 
+**Fastest path — let your agent install it.** Clone the repo, open your coding agent in your workspace, and paste:
+
+```
+I cloned https://github.com/AI-Nate/miaosuan to ./miaosuan.
+Install it: copy SKILL.md + doctrines/ + templates/ into this workspace's
+skills location (.claude/skills/miaosuan/ for Claude Code), bootstrap
+strategy/ from templates/strategy/, then walk me through filling in my
+fronts and bets. Finally run a first review over this week.
+```
+
+Your agent reads the docs and does the rest. 克隆仓库,把上面这段话丢给你的 agent,它自己会装好并带你跑第一次复盘。
+
+**Manual path:**
+
 1. Clone this repo.
 2. Copy `templates/strategy/` into your agent's workspace as `strategy/`.
-3. Install `SKILL.md` as a skill (see `docs/setup-claude-code.md` or `docs/setup-openclaw.md`).
+3. Install `SKILL.md` as a skill — per-platform guides: [`docs/setup-claude-code.md`](docs/setup-claude-code.md) · [`docs/setup-openclaw.md`](docs/setup-openclaw.md) · [`docs/setup-any-agent.md`](docs/setup-any-agent.md) (Cursor, Codex CLI, aider, anything that reads markdown).
 4. Run it once manually: *"Run miaosuan over what happened this week."*
 5. Wire it to a daily cron. From now on your agent briefs you like a staff officer, not a chatbot.
 

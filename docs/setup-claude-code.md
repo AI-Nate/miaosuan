@@ -1,5 +1,7 @@
 # Setup — Claude Code
 
+> **Shortcut:** you can skip this page — clone the repo and paste the install prompt from the [README Quickstart](../README.md#quickstart-5-min); Claude Code will do the steps below itself. This page is the manual/reference path.
+
 1. **Install the skill.** Copy the repo's `SKILL.md` into your project as `.claude/skills/miaosuan/SKILL.md` (or `~/.claude/skills/miaosuan/SKILL.md` for all projects). Copy `doctrines/` and `templates/` alongside it:
 
 ```
