@@ -79,9 +79,15 @@ Ship your own pack via PR: `doctrines/<your-pack>/`. Spec in [`doctrines/README.
 **Is my data sent anywhere?** No. Everything stays in your workspace. The harness reads what you give it.
 **Why Chinese military classics?** They are the densest decision-making literature ever written for operating under uncertainty with limited resources — and they're public domain.
 
+## Acknowledgments / 致谢
+
+The classical texts in `books/` were studied from the **Chinese Text Project (中国哲学书电子化计划, [ctext.org](https://ctext.org))** — an open-access digital library of pre-modern Chinese texts created by Dr. Donald Sturgeon. Every chapter file links back to its source page there. If this project is useful to you, ctext.org deserves a visit (and [support](https://ctext.org/support)).
+
+`books/` 中七书经文的研读底本来自**中国哲学书电子化计划([ctext.org](https://ctext.org))**——每个篇章文件头部都注明了对应的原文页链接。特此致谢。
+
 ## License
 
-Code and skill files: [MIT](LICENSE). Doctrine documents (`doctrines/`): CC-BY-4.0.
+Code and skill files: [MIT](LICENSE). Doctrine documents (`doctrines/`): CC-BY-4.0. The classical source texts themselves are public domain; see Acknowledgments for the digital edition used.
 
 ---
 

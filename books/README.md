@@ -17,4 +17,4 @@ The source layer behind the [`doctrines/wujing/`](../doctrines/wujing/) lens pac
 
 **How the layers relate / 两层怎么配合:** the harness only loads `doctrines/wujing/` lenses at runtime (small, trigger-indexed). When a lens fires and you want the full context, follow it back here. Contributing a new lens? Mine these notes first — the best trigger patterns usually hide in the chapter you haven't quoted yet.
 
-**Sources / 底本:** distilled from the public-domain originals (Chinese Text Project, [ctext.org](https://ctext.org)). Notes are original commentary, licensed CC-BY-4.0 like the rest of `doctrines/`.
+**Sources / 底本:** distilled from the public-domain originals as digitized by the **Chinese Text Project / 中国哲学书电子化计划** ([ctext.org](https://ctext.org)) — each chapter file links its exact source page. Notes are original commentary, licensed CC-BY-4.0 like the rest of `doctrines/`. 经文底本均取自中国哲学书电子化计划,特此致谢。
