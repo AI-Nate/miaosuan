@@ -1,5 +1,7 @@
 # 庙算 Miaosuan
 
+![miaosuan — ancient strategy, daily decisions](docs/images/miaosuan-card.png)
+
 > 夫未战而庙算胜者，得算多也。——《孙子兵法·计篇》
 >
 > *"The general who wins the battle makes many calculations in his temple before the battle is fought."*
@@ -92,6 +94,20 @@ Ship your own pack via PR: `doctrines/<your-pack>/`. Spec in [`doctrines/README.
 **Does this need any API keys or accounts?** No. It's markdown + your existing agent runtime.
 **Is my data sent anywhere?** No. Everything stays in your workspace. The harness reads what you give it.
 **Why Chinese military classics?** They are the densest decision-making literature ever written for operating under uncertainty with limited resources — and they're public domain.
+
+## 道 · Ethos & responsible use / 立意与负责任使用
+
+The first of Sun Tzu's five factors is **道 (dao)** — the moral alignment that makes people move as one. It comes *before* terrain, weather, command, and method (天·地·将·法). A calculation without it is already a losing one, no matter how many sums you run.
+
+孙子五事,**道**居其首——排在天、地、将、法之前。没有道的算计,算得再多,也是败局。
+
+So the purpose of miaosuan is narrow and deliberate:
+
+- **Build, don't harm.** This harness exists to help you optimize your own life and work — and, through that, make the world a little better for the people around you. It is **not** a tool for harming, deceiving, or setting anyone up.
+- **Good is the stronger strategy — for you.** If you are ever tempted to aim this at someone, remember what the classics actually teach: 得道多助,失道寡助. The legitimate, constructive path is not the "nice" option; it is the *winning* one. Trust, reputation, and goodwill compound; their opposites collapse and take you with them. Harm is a short trade that pays you back with interest.
+- **The harness holds this line.** Its default doctrine reads your situation through 道 first. Ask it to help you do wrong and it will not draft the play — it will show you, in plain terms, why the better move is also the better business.
+
+庙算的用途是收窄而明确的:帮你把自己的生活和工作做得更好,并借此让身边的世界好一点点——而不是拿来害人、骗人、设局坑人。真动了这个念头,记住兵法本身的教诲:**得道多助,失道寡助**。行善不是"善良选项",而是**对你自己更划算的那条路**——信誉、信任、善意会复利,反面会崩,还会把你一起拖下去。
 
 ## Acknowledgments / 致谢
 
