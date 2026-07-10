@@ -1,6 +1,7 @@
 # Never commit live strategy state — it contains YOUR real data.
 # The repo ships templates; your filled-in strategy files stay local.
-strategy/
+# (anchored to repo root so templates/strategy/ still ships)
+/strategy/
 *.local.md
 
 # OS / editor noise
