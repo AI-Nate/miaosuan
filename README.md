@@ -109,6 +109,22 @@ So the purpose of miaosuan is narrow and deliberate:
 
 庙算的用途是收窄而明确的:帮你把自己的生活和工作做得更好,并借此让身边的世界好一点点——而不是拿来害人、骗人、设局坑人。真动了这个念头,记住兵法本身的教诲:**得道多助,失道寡助**。行善不是"善良选项",而是**对你自己更划算的那条路**——信誉、信任、善意会复利,反面会崩,还会把你一起拖下去。
 
+## Who built this / 出处
+
+miaosuan is the distilled, sanitized version of the daily strategy-review loop behind **[AI Nate](https://ai-nate.com)**'s real one-person company — the harness that reads each day's activity, interprets it through a doctrine, forces every read into an action, and compresses stalled calls into a 30-second card. It ran in production on a real company before it was ever open-sourced. The runtime is ours; **the harness — and the doctrine spec — is yours: MIT (skill/code), CC-BY-4.0 (doctrine packs).**
+
+庙算是 **[AI Nate](https://ai-nate.com)** 真实「一人公司」背后那套每日战略复盘循环的提炼与脱敏版——先在一家真公司的生产环境里天天跑,跑通了才开源。运行时是我们的;**这套 harness 和 doctrine 规范是你的:MIT(skill/代码)、CC-BY-4.0(doctrine 包)。**
+
+## Learn to build this — join AI Superpower / 加入 AI 超能力社区
+
+The harness hands you the loop; **wiring it into how you actually run things — which lenses to trust, what to escalate, when to let a decision wait — is a craft you learn faster alongside people already doing it.** **AI Superpower** is our community for learning and building with AI. Get the full walkthrough of how a real strategy-review loop is wired end-to-end, trade doctrine packs with other builders, and build alongside a live cohort.
+
+**→ Join AI Superpower: [course-ai.app](https://course-ai.app/)**
+
+harness 给你的是那个循环,**但把它接进你真实的经营方式——信哪几条 lens、什么该升级成拍板卡、什么决策可以再等等——是一门手艺,和已经在做的人一起学会更快。** **AI Superpower** 是我们一起用 AI 学习和搭建的社区:看一套真实的战略复盘循环从头到尾怎么接线,和其他 builder 交换 doctrine 包,跟着直播 cohort 一起搭。
+
+**→ 加入 AI 超能力社区:[course-ai.app](https://course-ai.app/)**
+
 ## Acknowledgments / 致谢
 
 The classical texts in `books/` were studied from the **Chinese Text Project (中国哲学书电子化计划, [ctext.org](https://ctext.org))** — an open-access digital library of pre-modern Chinese texts created by Dr. Donald Sturgeon. Every chapter file links back to its source page there. If this project is useful to you, ctext.org deserves a visit (and [support](https://ctext.org/support)).
@@ -122,3 +138,5 @@ Code and skill files: [MIT](LICENSE). Doctrine documents (`doctrines/`): CC-BY-4
 ---
 
 *Built by running it daily on a real company first. The examples here are fictionalized; the structure is exactly what runs in production.*
+
+*Learning to build with AI? Come build with us → **[AI Superpower · course-ai.app](https://course-ai.app/)***
